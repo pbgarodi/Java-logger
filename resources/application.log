@@ -1,0 +1,12 @@
+18-02-2020 12:45:29 INFO  App:17 - This is info message
+18-02-2020 12:45:29 WARN  App:20 - This is warn message
+18-02-2020 12:45:29 FATAL App:23 - This is fatal message
+18-02-2020 12:45:29 ERROR App:27 - This is error message
+18-02-2020 12:45:29 ERROR App:37 - Getting exception:
+java.io.FileNotFoundException: /out.py (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at com.logger.App.main(App.java:34)
